@@ -18,10 +18,10 @@ define('DESTINATION_FOLDER','/var/www/keypass_store/');
 define('MAX_FILE_SIZE', 2048);
 
 // Upload success URL. User will be redirected to this page after upload.
-define('SUCCESS_URL','http://192.168.1.142/success.html');
+define('SUCCESS_URL','http://mykeystore-kfmaster.alaudacn.me/success.html');
 
 // Upload failure URL. User will be redirected to this page after upload.
-define('FAILURE_URL','http://192.168.1.142/failure.html');
+define('FAILURE_URL','http://mykeystore-kfmaster.alaudacn.me/failure.html');
 
 // Allowed file extensions. Will only allow these extensions if not empty.
 // Example: $exts = array('avi','mov','doc');
