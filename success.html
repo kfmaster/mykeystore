@@ -1,0 +1,30 @@
+<head>
+<script>
+function setWebKeyPass() {
+document.getElementById('click-me').href = window.location.protocol + "//" + window.location.hostname + ":5001/";
+}
+</script>
+</head>
+
+<body onload="setWebKeyPass()">
+Congratulations! Your KeyPass file is uploaded successfully. <br>
+<br>
+<br>
+You may go to the <a href="/" id="click-me">WebKeyPass portal</a> to retrieve your passwords now.
+<br>
+</body>
+
+
+<script>
+function setKeyStoreFront() {
+document.getElementById('go-storefront').href = window.location.protocol + "//" + window.location.hostname + "/";
+}
+</script>
+</head>
+
+<body onload="setKeyStoreFront()">
+<br>
+<br>
+If you want to upload a KeyPass .kdb file again, you can <a href="/" id="go-storefront">Retry upload KeyPass .kdb file.</a>
+</body>
+
