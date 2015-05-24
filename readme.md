@@ -1,3 +1,6 @@
+Based on Ubuntu, Nginx and PHP image, slightly modified by kfmaster to suite my need.
+Following is from the original readme:
+
 # Docker: Ubuntu, Nginx and PHP Stack
 
 This is the basis for LEMP stack (minus MySQL). This is based on [phusion/baseimage-docker](https://github.com/phusion/baseimage-docker) base Ubuntu image, which takes care of system issues which Docker's base Ubuntu image does not take care of, such as watching processes, logrotate, ssh server, cron and syslog-ng.
