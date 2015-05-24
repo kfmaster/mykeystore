@@ -43,6 +43,7 @@ COPY success.html /var/www/success.html
 COPY file-upload.php /var/www/file-upload.php
 COPY watch.sh /root/watch.sh
 COPY failure.html /var/www/failure.html
+ADD  assets.tar.gz /var/www/
 
 EXPOSE 80
 

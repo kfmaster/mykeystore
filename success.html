@@ -1,3 +1,6 @@
+<!-- ==== SUCCESS ==== -->
+<div class="container">
+  <div class="row white">
 <head>
 <script>
 function setWebKeyPass() {
@@ -7,13 +10,14 @@ document.getElementById('click-me').href = window.location.protocol + "//" + "my
 </head>
 
 <body onload="setWebKeyPass()">
-Congratulations! Your KeyPass file is uploaded successfully. <br>
+    <h2 class="centered">Congratulations! Your KeyPass file is uploaded successfully.</h2>
 <br>
 <br>
 You may go to the <a href="/" id="click-me">WebKeyPass portal</a> to retrieve your passwords now.
-<br>
 </body>
 
+    <hr>
+    <div class="col-md-6">
 
 <script>
 function setKeyStoreFront() {
@@ -24,7 +28,11 @@ document.getElementById('go-storefront').href = window.location.protocol + "//" 
 
 <body onload="setKeyStoreFront()">
 <br>
-<br>
-If you want to upload a KeyPass .kdb file again, you can <a href="/" id="go-storefront">Retry upload KeyPass .kdb file.</a>
+<h3>If you want to upload a KeyPass .kdb file again, you can</h3><a href="/" id="go-storefront">Retry upload KeyPass .kdb file.</a>
 </body>
 
+    </div>
+  </div>
+  <!-- row --> 
+</div>
+<!-- container --> 
