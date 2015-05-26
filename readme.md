@@ -1,5 +1,19 @@
-Based on Ubuntu, Nginx and PHP image, slightly modified by kfmaster to suite my need.
-Following is from the original readme:
+##Based on Ubuntu, Nginx and PHP image, 
+    Slightly modified by kfmaster to suite my need.
+    
+##I mad following changes:
+    I deployed a home page to accecpt user upload of KeePass .kdb file, the home page is based on following template:
+    https://onepagelove.com/alpha ;
+    The upload function is a simple php function, it will check file extention (.kdb or kdbx) and limit upload size to 2MB;
+    Upon upload success, it will redirect user to a different page that leading to the webKeePass application to decrpt;
+    If user upload failed, it will prompt user to try re-upload.
+    
+    Currently, the user upload is not tied to a specific user, there is only one current version of kdb file pointing to the latest upload;
+    User registration and login part will be implemented later so that each user can keep his/her own view of kdb file;
+   
+    Disclaimer, this application is still in development, please do not use it in production.
+
+    Following is from the original readme:
 
 # Docker: Ubuntu, Nginx and PHP Stack
 
