@@ -1,7 +1,7 @@
 ##Based on Ubuntu, Nginx and PHP image, 
     Slightly modified by kfmaster to suite my need.
     
-##I mad following changes:
+##I made following changes:
     I deployed a home page to accecpt user upload of KeePass .kdb file, the home page is based on following template:
     https://onepagelove.com/alpha ;
     The upload function is a simple php function, it will check file extention (.kdb or kdbx) and limit upload size to 2MB;
